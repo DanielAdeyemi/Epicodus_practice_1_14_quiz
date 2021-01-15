@@ -19,11 +19,6 @@
     <main>
       <form>
 
-        <div class="form-check mb-3">
-          <input type="checkbox" class="form-check-input" id="alone" required>
-          <label class="form-check-label" for="validationFormCheck1">Are you ready to find the best match of your life?</label>
-          <div class="invalid-feedback">Visit us when you are ready!</div>
-        </div>
         <h4>We need to know who are you looking for</h4>
         <div class="form- form-check-inline">
           <input type="radio" class="form-check-input" id="celebrity" name="celebrity" value="cel" required>
@@ -37,10 +32,10 @@
         <h4>A bit about you now</h4>
         <div class="mb-3">
           <select class="form-select" required aria-label="select example" id="gender">
-          <option selected disabled>You are...</option>
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-        </select>
+            <option selected disabled>You are...</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
           <div class="invalid-feedback">Example invalid select feedback</div>
         </div>
         <div class="input-group">
@@ -55,6 +50,11 @@
             Please provide some interesting facts.
           </div>
         </div>
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="alone" required>
+          <label class="form-check-label" for="validationFormCheck1">Are you ready to find the best match of your life?</label>
+          <div class="invalid-feedback">Visit us when you are ready!</div>
+        </div>
 
 
         <div class="mb-3 ">
@@ -63,12 +63,27 @@
       </form>
       <div class="output3">
         <div class="alert alert-danger " role="alert ">
-          Hi, <span id="nameOut"></span>! Your match is here!
+          Hi, <span class="nameOut"></span>! Your match is here!
         </div>
         <img src="img/bunny.jpg" alt="bunny ">
         <p>We will contact you with details how to proceed later. For now just enjoy a picture of your soulmate!</p>
       </div>
+      <div class="output2">
+        <div class="alert alert-danger " role="alert ">
+          Hi, <span class="nameOut"></span>! Your match is here!
+        </div>
+        <img src="img/1.jpg" alt="bunny">
+        <p>We will contact you with details how to proceed later. For now just enjoy a picture of your soulmate!</p>
+      </div>
+      <div class="output1">
+        <div class="alert alert-danger " role="alert ">
+          Hi, <span class="nameOut"></span>! Your match is here!
+        </div>
+        <img src="img/4.jpg" alt="bunny">
+        <p>We will contact you with details how to proceed later. For now just enjoy a picture of your soulmate!</p>
+      </div>
     </main>
+
   </div>
 </body>
 
