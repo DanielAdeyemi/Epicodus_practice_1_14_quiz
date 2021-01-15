@@ -1,5 +1,10 @@
 body {
-  background: url("/img/balloons.jpg");
+  background: url("/img/love.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: blue;
 }
 
 .output>img {
