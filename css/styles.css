@@ -33,6 +33,8 @@ h2 {
   font-style: italic;
 }
 
-label {
-  text-align: center;
+.output3>p, .output2>p, .output1>p {
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
