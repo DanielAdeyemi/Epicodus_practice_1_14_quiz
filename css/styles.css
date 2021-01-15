@@ -1,0 +1,18 @@
+body {
+  background: url("/img/balloons.jpg");
+}
+
+.output>img {
+  width: 200px;
+  float: left;
+  margin: 10px 20px 0 0;
+}
+
+.alert {
+  text-align: center;
+  font-weight: bold;
+}
+
+#nameOut {
+  font-style: italic;
+}
