@@ -26,26 +26,25 @@
         </div>
         <h4>We need to know who are you looking for</h4>
         <div class="form- form-check-inline">
-          <input type="radio" class="form-check-input" id="celebrity" name="radio-stacked" required>
-          <label class="form-check-label" for="celebrity">Celebrity</label>
+          <input type="radio" class="form-check-input" id="celebrity" name="celebrity" value="cel" required>
+          <label class="form-check-label" for="cel">Celebrity</label>
         </div>
         <div class="form-check form-check-inline mb-3">
-          <input type="radio" class="form-check-input" id="character" name="radio-stacked" required>
-          <label class="form-check-label" for="charachter">Or charachter</label>
+          <input type="radio" class="form-check-input" id="character" name="celebrity" value="char" required>
+          <label class="form-check-label" for="char">Or charachter</label>
           <div class="invalid-feedback">Pick who you want to meet</div>
         </div>
         <h4>A bit about you now</h4>
         <div class="mb-3">
-          <select class="form-select" required aria-label="select example">
+          <select class="form-select" required aria-label="select example" id="gender">
           <option selected disabled>You are...</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="nogender">None of above</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
         </select>
           <div class="invalid-feedback">Example invalid select feedback</div>
         </div>
         <div class="input-group">
-          <span class="input-group-text" id="name">First and last name</span>
+          <span class="input-group-text">First and last name</span>
           <input type="text" aria-label="First name" class="form-control" placeholder="Your first name" id="name" required>
           <input type=" text " aria-label="Last name " class="form-control " placeholder="Your last name " required>
         </div>
@@ -62,7 +61,7 @@
           <button class="btn btn-primary " type="submit ">Submit form</button>
         </div>
       </form>
-      <div class="output ">
+      <div class="output3">
         <div class="alert alert-danger " role="alert ">
           Hi, <span id="nameOut"></span>! Your match is here!
         </div>

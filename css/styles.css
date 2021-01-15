@@ -4,10 +4,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: blue;
+  color: #16324f;
 }
 
-.output>img {
+.output3>img, .output2>img, .output1>img {
   width: 350px;
   float: left;
   margin: 10px 20px 0 0;
@@ -22,6 +22,6 @@ body {
   font-style: italic;
 }
 
-.output {
+.output3, #output2, #output1 {
   display: none;
 }
